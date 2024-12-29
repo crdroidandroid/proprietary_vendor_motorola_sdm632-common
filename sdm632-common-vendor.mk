@@ -651,3 +651,18 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
     vendor.qti.gnss@3.0-service.xml
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64 \
+    WCNSS_qcom_wlan_nv_WCNSS_qcom_wlan_nv_symlink64 \
+    WCNSS_qcom_wlan_nv_Argentina_WCNSS_qcom_wlan_nv_Argentina_symlink64 \
+    WCNSS_qcom_wlan_nv_Brazil_WCNSS_qcom_wlan_nv_Brazil_symlink64 \
+    WCNSS_qcom_wlan_nv_India_WCNSS_qcom_wlan_nv_India_symlink64 \
+    WCNSS_qcom_wlan_nv_epa_WCNSS_qcom_wlan_nv_epa_symlink64 \
+    WCNSS_wlan_dictionary_WCNSS_wlan_dictionary_symlink64 \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64

@@ -424,3 +424,94 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "libimscamera_jni_libimscamera_jni_symlink64",
+	system_ext_specific: true,
+	installed_location: "priv-app/ims/lib/arm64/libimscamera_jni.so",
+	symlink_target: "/system_ext/lib64/libimscamera_jni.so",
+}
+
+install_symlink {
+	name: "libimsmedia_jni_libimsmedia_jni_symlink64",
+	system_ext_specific: true,
+	installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
+	symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
+}
+
+install_symlink {
+	name: "WCNSS_qcom_wlan_nv_WCNSS_qcom_wlan_nv_symlink64",
+	soc_specific: true,
+	installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin",
+	symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin",
+}
+
+install_symlink {
+	name: "WCNSS_qcom_wlan_nv_Argentina_WCNSS_qcom_wlan_nv_Argentina_symlink64",
+	soc_specific: true,
+	installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin",
+	symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin",
+}
+
+install_symlink {
+	name: "WCNSS_qcom_wlan_nv_Brazil_WCNSS_qcom_wlan_nv_Brazil_symlink64",
+	soc_specific: true,
+	installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin",
+	symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin",
+}
+
+install_symlink {
+	name: "WCNSS_qcom_wlan_nv_India_WCNSS_qcom_wlan_nv_India_symlink64",
+	soc_specific: true,
+	installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin",
+	symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv_India.bin",
+}
+
+install_symlink {
+	name: "WCNSS_qcom_wlan_nv_epa_WCNSS_qcom_wlan_nv_epa_symlink64",
+	soc_specific: true,
+	installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv_epa.bin",
+	symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv_epa.bin",
+}
+
+install_symlink {
+	name: "WCNSS_wlan_dictionary_WCNSS_wlan_dictionary_symlink64",
+	soc_specific: true,
+	installed_location: "firmware/wlan/prima/WCNSS_wlan_dictionary.dat",
+	symlink_target: "/vendor/etc/wifi/WCNSS_wlan_dictionary.dat",
+}
+
+install_symlink {
+	name: "libEGL_adreno_libEGL_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libEGL_adreno.so",
+	symlink_target: "/vendor/lib/egl/libEGL_adreno.so",
+}
+
+install_symlink {
+	name: "libGLESv2_adreno_libGLESv2_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libGLESv2_adreno.so",
+	symlink_target: "/vendor/lib/egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+	name: "libEGL_adreno_libEGL_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libEGL_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libEGL_adreno.so",
+}
+
+install_symlink {
+	name: "libGLESv2_adreno_libGLESv2_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libGLESv2_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+	name: "libq3dtools_adreno_libq3dtools_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libq3dtools_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
+}
+
