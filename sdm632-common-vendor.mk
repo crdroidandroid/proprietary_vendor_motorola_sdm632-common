@@ -104,12 +104,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm632-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_qcrildb.sql
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.qti.imscmservice@1.0-vendor \
-    com.qualcomm.qti.imscmservice@2.0-vendor \
-    com.qualcomm.qti.imscmservice@2.1-vendor \
-    com.qualcomm.qti.imscmservice@2.2-vendor \
-    com.qualcomm.qti.uceservice@2.0-vendor \
-    com.qualcomm.qti.uceservice@2.1-vendor \
+    com.qualcomm.qti.imscmservice@1.0_vendor \
+    com.qualcomm.qti.imscmservice@2.0_vendor \
+    com.qualcomm.qti.imscmservice@2.1_vendor \
+    com.qualcomm.qti.imscmservice@2.2_vendor \
+    com.qualcomm.qti.uceservice@2.0_vendor \
+    com.qualcomm.qti.uceservice@2.1_vendor \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -243,9 +243,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@2.1 \
     vendor.qti.gnss@3.0-service \
     vendor.qti.gnss@3.0 \
-    vendor.qti.hardware.fm@1.0-vendor \
-    vendor.qti.hardware.iop@1.0-vendor \
-    vendor.qti.hardware.iop@2.0-vendor \
+    vendor.qti.hardware.fm@1.0_vendor \
+    vendor.qti.hardware.iop@1.0_vendor \
+    vendor.qti.hardware.iop@2.0_vendor \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
@@ -270,14 +270,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.1 \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
-    vendor.qti.hardware.scve.objecttracker@1.0-vendor \
-    vendor.qti.hardware.scve.panorama@1.0-vendor \
-    vendor.qti.ims.callinfo@1.0-vendor \
-    vendor.qti.ims.rcsconfig@1.0-vendor \
-    vendor.qti.ims.rcsconfig@1.1-vendor \
-    vendor.qti.imsrtpservice@2.0-vendor \
+    vendor.qti.hardware.scve.objecttracker@1.0_vendor \
+    vendor.qti.hardware.scve.panorama@1.0_vendor \
+    vendor.qti.ims.callinfo@1.0_vendor \
+    vendor.qti.ims.rcsconfig@1.0_vendor \
+    vendor.qti.ims.rcsconfig@1.1_vendor \
+    vendor.qti.imsrtpservice@2.0_vendor \
     vendor.qti.imsrtpservice@2.1-service-Impl \
-    vendor.qti.imsrtpservice@2.1-vendor \
+    vendor.qti.imsrtpservice@2.1_vendor \
     vendor.qti.voiceprint@1.0 \
     libcppf \
     libvqzip \
@@ -343,8 +343,8 @@ PRODUCT_PACKAGES += \
     qtimutex \
     vendor.display.color@1.2 \
     vendor.qti.data.factory@2.0 \
-    vendor.qti.data.factory@2.1-vendor \
-    vendor.qti.data.slm@1.0-vendor \
+    vendor.qti.data.factory@2.1_vendor \
+    vendor.qti.data.slm@1.0_vendor \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \

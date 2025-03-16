@@ -12,7 +12,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@1.0-vendor",
+    name: "com.qualcomm.qti.imscmservice@1.0_vendor",
     stem: "com.qualcomm.qti.imscmservice@1.0",
     owner: "motorola",
     strip: {
@@ -60,7 +60,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.0-vendor",
+    name: "com.qualcomm.qti.imscmservice@2.0_vendor",
     stem: "com.qualcomm.qti.imscmservice@2.0",
     owner: "motorola",
     strip: {
@@ -108,7 +108,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.1-vendor",
+    name: "com.qualcomm.qti.imscmservice@2.1_vendor",
     stem: "com.qualcomm.qti.imscmservice@2.1",
     owner: "motorola",
     strip: {
@@ -158,7 +158,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.2-vendor",
+    name: "com.qualcomm.qti.imscmservice@2.2_vendor",
     stem: "com.qualcomm.qti.imscmservice@2.2",
     owner: "motorola",
     strip: {
@@ -210,7 +210,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.0-vendor",
+    name: "com.qualcomm.qti.uceservice@2.0_vendor",
     stem: "com.qualcomm.qti.uceservice@2.0",
     owner: "motorola",
     strip: {
@@ -258,7 +258,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.1-vendor",
+    name: "com.qualcomm.qti.uceservice@2.1_vendor",
     stem: "com.qualcomm.qti.uceservice@2.1",
     owner: "motorola",
     strip: {
@@ -6414,7 +6414,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.fm@1.0-vendor",
+    name: "vendor.qti.hardware.fm@1.0_vendor",
     stem: "vendor.qti.hardware.fm@1.0",
     owner: "motorola",
     strip: {
@@ -6462,7 +6462,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.iop@1.0-vendor",
+    name: "vendor.qti.hardware.iop@1.0_vendor",
     stem: "vendor.qti.hardware.iop@1.0",
     owner: "motorola",
     strip: {
@@ -6510,7 +6510,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.iop@2.0-vendor",
+    name: "vendor.qti.hardware.iop@2.0_vendor",
     stem: "vendor.qti.hardware.iop@2.0",
     owner: "motorola",
     strip: {
@@ -7782,7 +7782,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.scve.objecttracker@1.0-vendor",
+    name: "vendor.qti.hardware.scve.objecttracker@1.0_vendor",
     stem: "vendor.qti.hardware.scve.objecttracker@1.0",
     owner: "motorola",
     strip: {
@@ -7830,7 +7830,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.scve.panorama@1.0-vendor",
+    name: "vendor.qti.hardware.scve.panorama@1.0_vendor",
     stem: "vendor.qti.hardware.scve.panorama@1.0",
     owner: "motorola",
     strip: {
@@ -7878,7 +7878,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.callinfo@1.0-vendor",
+    name: "vendor.qti.ims.callinfo@1.0_vendor",
     stem: "vendor.qti.ims.callinfo@1.0",
     owner: "motorola",
     strip: {
@@ -7926,7 +7926,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.rcsconfig@1.0-vendor",
+    name: "vendor.qti.ims.rcsconfig@1.0_vendor",
     stem: "vendor.qti.ims.rcsconfig@1.0",
     owner: "motorola",
     strip: {
@@ -7974,7 +7974,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.rcsconfig@1.1-vendor",
+    name: "vendor.qti.ims.rcsconfig@1.1_vendor",
     stem: "vendor.qti.ims.rcsconfig@1.1",
     owner: "motorola",
     strip: {
@@ -8024,7 +8024,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@2.0-vendor",
+    name: "vendor.qti.imsrtpservice@2.0_vendor",
     stem: "vendor.qti.imsrtpservice@2.0",
     owner: "motorola",
     strip: {
@@ -8131,7 +8131,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@2.1-vendor",
+    name: "vendor.qti.imsrtpservice@2.1_vendor",
     stem: "vendor.qti.imsrtpservice@2.1",
     owner: "motorola",
     strip: {
@@ -10217,7 +10217,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.data.factory@2.1-vendor",
+    name: "vendor.qti.data.factory@2.1_vendor",
     stem: "vendor.qti.data.factory@2.1",
     owner: "motorola",
     strip: {
@@ -10258,7 +10258,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.data.slm@1.0-vendor",
+    name: "vendor.qti.data.slm@1.0_vendor",
     stem: "vendor.qti.data.slm@1.0",
     owner: "motorola",
     strip: {
