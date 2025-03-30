@@ -166,7 +166,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     liblbs_core \
     libllvm-glnext \
-    libllvm-qcom \
     libloc_api_v02 \
     liblocationservice \
     liblocationservice_glue \
