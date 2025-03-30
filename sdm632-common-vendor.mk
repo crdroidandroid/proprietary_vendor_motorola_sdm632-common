@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/sdm632-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/sdm632-common/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
-    vendor/motorola/sdm632-common/proprietary/product/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.motodisplay.xml \
-    vendor/motorola/sdm632-common/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/sdm632-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/motorola/sdm632-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/motorola/sdm632-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
@@ -69,8 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm632-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/motorola/sdm632-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/motorola/sdm632-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/motorola/sdm632-common/proprietary/vendor/etc/permissions/com.motorola.camera2.denali.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera2.denali.xml \
-    vendor/motorola/sdm632-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sdm632-common/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/sdm632-common/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/sdm632-common/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin \
@@ -398,13 +393,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@1.1 \
     vendor.qti.imsrtpservice@2.0 \
     vendor.qti.imsrtpservice@2.1 \
-    MotoSignatureApp \
     CneApp \
     TimeService \
     QtiTelephonyService \
     ims \
     qcrilmsgtunnel \
-    com.motorola.motosignature \
     QtiTelephonyServicelibrary \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
